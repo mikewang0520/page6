@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'EasternBrush';
+  src: url(Eastern\ Brush.ttf);
+}
+
+@font-face {
+  font-family: 'QuickSand';
+  src: url(Quicksand_Light.otf);
+}
+
+.title {
+  font-family: EasternBrush;
+  position: absolute;
+  top: 670px;
+  left: 600px;
+  font-size: 200%;
+}
+
+.village {
+  position: absolute;
+  height: 100%;
+  width: auto;
+}
+
+.mountains {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  height: 50%;
+  width: auto;
+}
+
+.left {
+  position: absolute;
+  top: 50px;
+  left: 180px;
+  height: 80%;
+  width: auto;
+}
+
+.right {
+  position: absolute;
+  top: 50px;
+  left: 720px;
+  height: 80%;
+  width: auto;
+}
+
+.man {
+  position: absolute;
+  top: 540px;
+  left: 470px;
+  height: 13%;
+  width: auto;
+}
+
+.river {
+  position: absolute;
+  top: 370px;
+  left: 20px;
+  height: 80%;
+  width: auto;
+}
+
+.textbox {
+  position: absolute;
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  width: 100px;
+  border-image: url(border.png) 30 round;
+}
+
+.mapicon {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  height: 5%;
+  width: auto;
+}
+
+.unmute {
+  position: absolute;
+  bottom: 25px;
+  right: 20px;
+}
+
+.mute {
+  position: absolute;
+  bottom: 25px;
+  right: 80px;
+}
+
+.fade-in-txt1 {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  position: absolute;
+  padding-left: 15px;
+  padding-right: 15px;
+  left: 100px;
+  top: 50px;
+  background-color: #ffffff;
+  border: 2px solid black;
+  width: 200px;
+}
+
+.fade-in-txt2 {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  position: absolute;
+  padding-left: 15px;
+  padding-right: 15px;
+  right: 150px;
+  bottom: 150px;
+  background-color: #ffffff;
+  border: 2px solid black;
+  width: 200px;
+}
+
+.text {
+  font-family: QuickSand;
+  font-size: 90%;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
